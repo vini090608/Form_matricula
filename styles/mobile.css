@@ -1,0 +1,39 @@
+@media (width <50em){
+    #app{
+        display: flex;
+        flex-direction: column-reverse;  
+        overflow: auto;    
+        
+        main{
+            overflow: unset;
+        }
+    }
+
+    .desktop-only{
+        display: none;
+    }
+
+    aside img{
+        display: grid;
+        align-self: center;
+        justify-self: center;
+        margin: 1rem;
+    }
+
+    legend{
+        font: 600 1rem/1.25 var(--font-family);
+        margin-bottom: 1.5rem;
+    }
+
+    .main-container p{
+        font: var(--text-sm);
+        color: var(--text-tertiary);
+    }
+
+    .flex{
+        display: block;
+        .input-wrapper{
+            margin-top: 1.5rem;
+        }
+    }
+}

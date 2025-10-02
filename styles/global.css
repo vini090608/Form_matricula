@@ -46,8 +46,10 @@ img{
     height: auto;
 }
 
+
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex-1{
@@ -55,5 +57,5 @@ img{
 }
 
 .flex-2{
-    flex: 2;
+    flex: 1;
 }
